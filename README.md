@@ -1,70 +1,35 @@
-# Unit 19 PWA Homework: Online/Offline Budget Trackers
+# Budget Tracker
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+[Delpoyed](https://serene-headland-76622.herokuapp.com/)
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+## Table of Contents
 
-- - -
+- [Installation](#installation)
+- [Questions](#questions)
 
-## Commit Early and Often
+## Description:
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+The purpose of this project was to convert an application in to a Progressive Web Application. I did this by adding the `manifest.webmanifest` and the `service-worker.js ` files to the application.
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+## Installation
 
-* Follow these guidelines for committing:
+Steps to install the application:
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+### On Desktop
+```
+* Follow this [Link](https://serene-headland-76622.herokuapp.com/) to reach the application.
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+* Click on the save icon in the address bar to download the web application. See image below for the example
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+* Once this installation is complete you can use the it just like any other application
+```
+![app1](./images/app1.png)
+## Questions
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+If you have any questions, contact me via [Github](https://github.com/kcmuse), or send me an email at kcmusedev@gmail.com
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+## License
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
-- - -
-
-## Hint
-
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
-
-* Use [Google](https://www.google.com) or another search engine to research this topic.
+This project uses the MIT License
